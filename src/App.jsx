@@ -23,7 +23,7 @@ function App() {
         <TopNav navExit={navExit} setNavExit={setNavExit} />
         <div className="flex pt-16 w-full h-full overflow-hidden">
           <Routes>
-            <Route path="/" element={<Home navExit={navExit} setNavExit={setNavExit} />} />
+            <Route path="/movie-prix/" element={<Home navExit={navExit} setNavExit={setNavExit} />} />
           </Routes>
         </div>
       </div>
