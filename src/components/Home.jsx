@@ -54,7 +54,7 @@ const Home = ({ navExit, setNavExit }) => {
   return (
     <>
       <div
-        className={`${navExit ? "w-0 px-0" : "md:w-[30%] px-4 w-[70%]"} duration-700 border-r dark:border-zinc-700 border-zinc-400 h-[90%] overflow-x-hidden absolute hover:overflow-y-auto overflow-y-hidden bg-white z-20`}
+        className={`${navExit ? "w-0 px-0" : "md:w-[30%] px-4 w-[70%]"} duration-700 border-r dark:border-zinc-700 border-zinc-400 h-[90%] overflow-x-hidden absolute hover:overflow-y-auto overflow-y-hidden bg-white dark:bg-neutral-800 z-20`}
       >
         <SideNav />
       </div>
